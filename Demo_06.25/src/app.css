@@ -1,0 +1,42 @@
+/**
+ * 全局样式文件
+ * 
+ * 此文件定义了应用的全局样式和CSS变量，
+ * 将被应用于所有页面
+ */
+
+/* 基础元素样式重置 */
+page,
+view,
+text,
+image,
+button {
+  box-sizing: border-box; /* 统一盒模型计算方式 */
+}
+
+/* 页面基础样式 */
+page {
+  /* 设置全局字体 */
+  font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica,
+    Segoe UI, Arial, Roboto, 'PingFang SC', 'miui', 'Hiragino Sans GB', 'Microsoft Yahei',
+    sans-serif;
+  font-size: 32px; /* 基础字体大小 */
+  background-color: #f7f8fa; /* 页面背景色 */
+}
+
+/* 默认内容区样式 */
+.index {
+  padding: 20px;
+}
+
+/* NutUI主题变量 - 自定义组件库主题颜色 */
+:root {
+  /* 主色调设置为红色 */
+  --nutui-brand-color: #e54d42; /* 品牌主色 */
+  --nutui-brand-color-start: #e54d42; /* 渐变起始色 */
+  --nutui-brand-color-end: #e54d42; /* 渐变结束色 */
+  --nutui-brand-link-color: #e54d42; /* 链接颜色 */
+  --nutui-brand-text-color: #e54d42; /* 文本颜色 */
+  --nutui-primary-color: #e54d42; /* 主要颜色 */
+  --nutui-primary-color-end: #e54d42; /* 主要渐变结束色 */
+}

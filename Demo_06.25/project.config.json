@@ -1,0 +1,54 @@
+{
+  "miniprogramRoot": "./dist/",
+  "projectname": "场馆预约小程序",
+  "description": "基于Taro + Vue3开发的场馆预约小程序",
+  "appid": "wxeb28bf7c9f8003d0",
+  "setting": {
+    "urlCheck": false,
+    "enhance": false,
+    "es6": false,
+    "minified": true,
+    "debugger": false,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    },
+    "coverView": true,
+    "hot": false,
+    "nodeModules": false,
+    "uploadWithSourceMap": true,
+    "autoAudits": false,
+    "showShadowRootInWxmlPanel": true,
+    "packNpmManually": false,
+    "packNpmRelationList": [],
+    "ignoreUploadUnusedFiles": true,
+    "useCompilerModule": false,
+    "useIsolateContext": true,
+    "useMultiFrameRuntime": true,
+    "useApiHook": true,
+    "useApiHostProcess": true,
+    "postcss": true,
+    "minifyWXSS": true,
+    "minifyWXML": true,
+    "skylineRenderEnable": false,
+    "compileHotReLoad": false,
+    "useStaticServer": true,
+    "disableUseStrict": false,
+    "useCompilerPlugins": false,
+    "minifyWXCode": true
+  },
+  "compileType": "miniprogram",
+  "libVersion": "3.0.1",
+  "condition": {},
+  "srcMiniprogramRoot": "dist/",
+  "packOptions": {
+    "ignore": [],
+    "include": []
+  },
+  "editorSetting": {
+    "tabIndent": "auto",
+    "tabSize": 2
+  },
+  "simulatorPluginLibVersion": {}
+} 
